@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                 "height" to heightEditText.text.toString()
             )
         }
+        println("Hi!")
     }
 
     private fun saveData(height: Int, weight: Int) {
